@@ -1,0 +1,180 @@
+body,p,a,h5{
+    margin: 0px;
+    padding: 0px;
+}
+/*导航条*/
+nav{
+    width: 100vw;
+    background-color: lightgray;
+}
+nav div{
+    width: 90vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 0;
+}
+nav div a span{
+    font-size: 3vw;
+    line-height: 8vw;
+}
+nav div input{
+    width: 40vw;
+    height: 5vw;
+    border: none;
+    font-size: 3vw;
+    margin-top: 1vw;
+    background-color: #D3D3D3;
+    text-align: center;
+}
+/*banner 区域*/
+div[class='banner']{
+    height: 20vw;
+    background-color: #FF6B01;
+    position: relative;
+}
+.banner a{
+    text-decoration: none;
+}
+.banner p{
+    color: white;
+    font-size: 3.5vw;
+    text-align: center;
+    line-height: 10vw;
+}
+.banner h5{
+    width: 16vw;
+    height: 16vw;
+    border-radius: 8vw;
+    background-color: #FDD34D;
+    text-align: center;
+    position: absolute;
+    left: 42vw;
+    bottom: -8vw;
+}
+.banner span{
+    font-size: 8vw;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 47.8vw;
+    bottom: -6.2vw;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20vw;
+    height: 30vw;
+    background-color: white;
+}
+.icon a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    text-decoration: none;
+}
+.icon a span{
+    font-size: 8vw;
+    padding-bottom: 15vw;
+    margin-bottom: -12vw;
+}
+.icon a:nth-of-type(1) span{
+    border-bottom: 1.5vw solid red;
+}
+.icon a:nth-of-type(2) span{
+    border-bottom: 1.5vw solid green;
+}
+.icon a:nth-of-type(3) span{
+    border-bottom: 1.5vw solid orange;
+}
+main{
+    background-color: #F5F5F5;
+    height: 100vh;
+}
+main div{
+    background-color: white;
+}
+.all{
+    height:40vw;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #F5F5F5;
+}
+.all span:nth-child(1){
+    font-size: 3vw;
+    padding-left: 3vw;
+}
+.all span:nth-child(2){
+    padding-left: 5vw;
+}
+.all div{
+    background-color: white;
+    line-height: 11vw;
+}
+.all div:nth-of-type(1){
+    margin-bottom: 1vw;
+}
+.all div:nth-of-type(2){
+    margin-bottom: 2vw;
+}
+.all div:nth-of-type(3){
+    margin-bottom: 2vw;
+}
+
+
+
+
+/*页脚*/
+footer{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    height: 15vw;
+    align-items: center;
+}
+footer a{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p:hover{
+    color: orange;
+}
+footer a:nth-of-type(4) p{
+    color: orange;
+} 
+footer p:nth-child(2){
+    font-size: 4vw;
+}
+footer a p:nth-child(1){
+    width: 6vw;
+    height: 6vw;
+    background-image: url(../image/milogin/spr1.png);
+    background-repeat: no-repeat;
+    background-size: 6vw 48vw;
+}
+footer a:nth-of-type(1) p:nth-child(1){
+    background-position: 0 -42vw;
+}
+footer a:nth-of-type(1) p:nth-child(1):hover{
+    background-position: 0 -36vw;
+}
+footer a:nth-of-type(2) p:nth-child(1){
+    background-position: 0 -6vw;
+}
+footer a:nth-of-type(2) p:nth-child(1):hover{
+    background-position: 0 0vw;
+}
+footer a:nth-of-type(3) p:nth-child(1){
+    background-position: 0 -18vw;
+}
+footer a:nth-of-type(3) p:nth-child(1):hover{
+    background-position: 0 -12vw;
+}
+footer a:nth-of-type(4) p:nth-child(1){
+    background-position: 0 -24vw;
+}

@@ -1,0 +1,237 @@
+body,p,a,h5{
+    margin: 0px;
+    padding: 0px;
+}
+/*头部*/
+#header{
+    padding: 2vw 5vw;
+    border: none;
+    position: fixed
+    
+}
+header img{
+    padding: 0px !important;
+}
+header input{
+    height: 8vw;
+    border-radius: 0.5vw;
+    font-size: 3vw;
+    line-height: 5vw;
+    margin-left: 5vw;
+    border: none;
+    background-color: white;
+    background-image: url(../image/milogin/ss.png);
+    background-repeat: no-repeat;
+    background-size: 5vw;
+    background-position: 0vw 1vw;
+}
+header a{
+    font-size: 4vw;
+    padding: 0px !important;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.2vw;
+    line-height: 8vw;
+}
+
+/*滚动图*/
+main[class="container-fluid"]{
+    padding: 0px;
+    /*margin-top: 10vw;*/
+}
+main ol li{
+    position: relative;
+    left: 40vw;
+    font-size: 0.5vw;
+}
+main[class="container-fluid"] #carousel-example-generic img{
+    width: 150vw;
+    height: 50vw;
+}
+/*早报*/
+.paper{
+    padding: 3vw 0;
+    background-color: white;
+}
+.paper b{
+    color: orange;
+    font-size: 3.5vw;
+}
+.paper span{
+    font-size: 3vw;
+    border-left: 1px solid lightgray;
+    padding-left: 2vw;
+}
+.maintop img{
+    width: 49.5vw;
+}
+.maintop div{
+    width: 49.5vw;
+    float: right;
+}
+.maintop div img:nth-child(1){
+    margin-bottom: 1vw;
+}
+.maintop section img{
+    width: 100vw;
+    margin: 1vw 0;
+}
+
+.maincenter>h5{
+    font-size: 4vw;
+    font-weight: bold;
+    line-height: 10vw;
+}
+.maincenter img{
+    width: 100vw;
+}
+.maincenter_list{
+    margin-top: 1vw;
+}
+
+.maincenter_list div img{
+    width: 49.5vw;
+}
+.maincenter_list div:nth-of-type(1),.maincenter_list div:nth-of-type(3),.maincenter_list div:nth-of-type(5){
+    float: left;
+}
+.maincenter_list div:nth-of-type(2),.maincenter_list div:nth-of-type(4),.maincenter_list div:nth-of-type(6){
+    float: right;
+}
+.maincenter_list div p:nth-of-type(1){
+    font-size: 4vw;
+}
+.maincenter_list div p:nth-of-type(2){
+    font-size: 3vw;
+    color: gray;
+}
+.maincenter_list div p:nth-of-type(3){
+    font-size: 4vw;
+    color: red;
+    padding-bottom: 4vw;
+}
+.maincenter_list div:nth-of-type(5) p:nth-of-type(3){
+    padding-bottom: 0vw;
+}
+.maincenter_list div:nth-of-type(6) p:nth-of-type(3){
+    padding-bottom: 0vw;
+}
+.mainbottom>h5{
+    font-size: 4vw;
+    font-weight: bold;
+    line-height: 10vw;
+}
+.mainbottom img{
+    width: 100vw;
+    margin-bottom: 2vw;
+}
+
+
+
+
+
+
+
+
+/*平铺图*/
+.banner a img{
+    width: 30vw;
+    border: 1px solid gray;
+}
+.banner a{
+    padding: 0px 2vw;
+    background-color: #F5F5F5;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+}
+/*主体*/
+.main_content section{
+    padding: 0px;
+    height: 40vw;
+    margin-bottom: -15vw;
+}
+.main_content section:nth-of-type(1){
+    background-image: url(../image/mimall/sec-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 30vw;
+    position: relative;
+}
+.main_content section img{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 3vw;
+    position: absolute;
+    left: 8vw;
+    top: 4vw;    
+}
+.main_content section p{
+    line-height: 5vw;
+}
+.main_content section p:nth-child(1){
+    font-size: 4vw;
+}
+.main_content section p:nth-child(2){
+    font-size: 3vw;
+    color: gray;
+}
+.main_content section p:nth-child(3){
+    font-size: 3vw;
+    color: red;
+}
+
+
+
+
+
+/*脚部*/
+footer{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    height: 15vw;
+    align-items: center;
+}
+footer a{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p:hover{
+    color: orange;
+}
+footer a:nth-of-type(1) p{
+    color: orange;
+} 
+footer p:nth-child(2){
+    font-size: 4vw;
+}
+footer a p:nth-child(1){
+    width: 6vw;
+    height: 6vw;
+    background-image: url(../image/milogin/spr1.png);
+    background-repeat: no-repeat;
+    background-size: 6vw 48vw;
+}
+footer a:nth-of-type(1) p:nth-child(1){
+    background-position: 0 -36vw;
+}
+footer a:nth-of-type(2) p:nth-child(1){
+    background-position: 0 -6vw;
+}
+footer a:nth-of-type(2) p:nth-child(1):hover{
+    background-position: 0 0vw;
+}
+footer a:nth-of-type(3) p:nth-child(1){
+    background-position: 0 -18vw;
+}
+footer a:nth-of-type(3) p:nth-child(1):hover{
+    background-position: 0 -12vw;
+}
+footer a:nth-of-type(4) p:nth-child(1){
+    background-position: 0 -30vw;
+}
+footer a:nth-of-type(4) p:nth-child(1):hover{
+    background-position: 0 -24vw;
+}

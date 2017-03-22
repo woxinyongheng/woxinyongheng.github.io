@@ -1,0 +1,150 @@
+body,p,a,h5{
+    margin: 0px;
+    padding: 0px;
+}
+/*导航条*/
+nav{
+    width: 100vw;
+    background-color: lightgray;
+}
+nav div{
+    width: 90vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 0;
+}
+nav div a span{
+    font-size: 3vw;
+    line-height: 8vw;
+}
+nav div input{
+    width: 40vw;
+    height: 5vw;
+    border: none;
+    font-size: 3vw;
+    margin-top: 1vw;
+    background-color: #D3D3D3;
+    text-align: center;
+}
+/*banner区域*/
+.banner h5{
+    width: 100vw;
+    height: 10vw;
+    line-height: 10vw;
+    white-space: nowrap;
+    overflow: auto;
+    padding-bottom: 3vw;
+}
+.banner h5 a{
+    color: black;
+    font-size: 4vw;
+    margin-right: 5vw;
+    text-decoration: none;
+}
+.banner img{
+    width: 100vw;
+}
+
+
+
+
+/*主体*/
+main{
+    background-color: lightgray;
+}
+main .main_top{
+    height: 75vw;
+    margin-bottom: 1vw;
+    background-color: white;
+}
+main h5{
+    display: block;
+    width: 100vw;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: normal;
+    padding: 5vw 0;
+}
+main p{
+    text-align: center;
+    font-size: 3vw;
+    padding: 2vw 0 5vw 0;
+}
+main div{
+    display: flex;
+    flex-wrap: wrap;
+}
+main div img{
+    width: 18vw;
+    margin: 0 0vw 0vw 5vw;
+}
+main .main_center{
+    height: 100vw;
+    margin-bottom: 1vw;
+    background-color: white;
+}
+main .main_bottom{
+    height: 75vw;
+    margin-bottom: 1vw;
+    background-color: white;
+}
+.main_center>img{
+    width: 100vw;
+    margin-left: 0;
+}
+
+/*页脚*/
+footer{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    height: 15vw;
+    align-items: center;
+}
+footer a{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p:hover{
+    color: orange;
+}
+footer a:nth-of-type(2) p{
+    color: orange;
+} 
+footer p:nth-child(2){
+    font-size: 4vw;
+}
+footer a p:nth-child(1){
+    width: 6vw;
+    height: 6vw;
+    background-image: url(../image/milogin/spr1.png);
+    background-repeat: no-repeat;
+    background-size: 6vw 48vw;
+}
+footer a:nth-of-type(1) p:nth-child(1){
+    background-position: 0 -42vw;
+}
+footer a:nth-of-type(1) p:nth-child(1):hover{
+    background-position: 0 -36vw;
+}
+footer a:nth-of-type(2) p:nth-child(1){
+    background-position: 0 0vw;
+}
+footer a:nth-of-type(2) p:nth-child(1):hover{
+    background-position: 0 0vw;
+}
+footer a:nth-of-type(3) p:nth-child(1){
+    background-position: 0 -18vw;
+}
+footer a:nth-of-type(3) p:nth-child(1):hover{
+    background-position: 0 -12vw;
+}
+footer a:nth-of-type(4) p:nth-child(1){
+    background-position: 0 -30vw;
+}
+footer a:nth-of-type(4) p:nth-child(1):hover{
+    background-position: 0 -24vw;
+}

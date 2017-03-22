@@ -1,0 +1,175 @@
+body,p,a,h5{
+    margin: 0px;
+    padding: 0px;
+}
+/*导航条*/
+nav{
+    width: 100vw;
+    background-color: lightgray;
+}
+nav div{
+    width: 90vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 0;
+}
+nav div a span{
+    font-size: 3vw;
+    line-height: 8vw;
+}
+nav div input{
+    width: 40vw;
+    height: 5vw;
+    border: none;
+    font-size: 3vw;
+    margin-top: 1vw;
+    background-color: #D3D3D3;
+    text-align: center;
+}
+/*banner区域*/
+.banner p{
+    width: 30vw;
+    height: 30vw;
+    margin: 10vw auto;
+    border-radius: 15vw;
+    background-color: #666666;
+    font-family: "华文琥珀";
+    font-size: 25vw;
+    color: white;
+    text-align: center;
+}
+main{
+    background-color: #F2F2F2;
+    border-top: 0.1vw solid #F2F2F2;
+}
+/*sign区域*/
+.sign{
+    position: relative;
+    background-color: white;
+    padding: 3vw;
+    height: 12vw;
+}
+.sign span{
+    font-size: 5vw;
+    line-height: 5vw;
+}
+.sign a{
+    color: gray;
+    position: absolute;
+    right: 3vw;
+    font-size: 3vw;
+    letter-spacing: 0.3vw;
+    bottom: 1vw;
+}
+/*play区域*/
+.play section{
+    display: flex;
+    justify-content: center;
+    height: 15vw;
+    align-items: center;
+}
+.play p:nth-child(1){
+    width: 11vw;
+    height: 11vw;
+    background-image: url(../image/mimall/spr1.png);
+    background-repeat: no-repeat;
+    background-size: 11vw 88vw;
+    background-position: 0vw -33vw;
+}
+.play p:nth-child(2){
+    line-height: 12vw;
+    color: gray;
+}
+.play button:nth-child(3){
+    font-size: 3vw;
+    height: 8vw;
+    padding: 0 2vw;
+    border: 1px solid lightgray;
+    margin-right: 2vw;
+}
+.groom{
+    font-size: 5vw;
+    background-color: white;
+    line-height: 8vw;
+    padding-left: 2vw;
+}
+/*图片区域*/
+.pic{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.pic img{
+    width: 30vw; 
+    background-color: lightgray   
+}
+.pic p{
+    text-align: center;
+}
+.pic p:nth-of-type(2){
+    color: red;
+    margin-bottom: 8vw;
+}
+
+
+
+
+
+
+
+
+
+/*页脚*/
+footer{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    height: 15vw;
+    align-items: center;
+}
+footer a{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p:hover{
+    color: orange;
+}
+footer a:nth-of-type(3) p{
+    color: orange;
+} 
+footer p:nth-child(2){
+    font-size: 4vw;
+}
+footer a p:nth-child(1){
+    width: 6vw;
+    height: 6vw;
+    background-image: url(../image/milogin/spr1.png);
+    background-repeat: no-repeat;
+    background-size: 6vw 48vw;
+}
+footer a:nth-of-type(1) p:nth-child(1){
+    background-position: 0 -42vw;
+}
+footer a:nth-of-type(1) p:nth-child(1):hover{
+    background-position: 0 -36vw;
+}
+footer a:nth-of-type(2) p:nth-child(1){
+    background-position: 0 -6vw;
+}
+footer a:nth-of-type(2) p:nth-child(1):hover{
+    background-position: 0 0vw;
+}
+footer a:nth-of-type(3) p:nth-child(1){
+    background-position: 0 -12vw;
+}
+footer a:nth-of-type(4) p:nth-child(1){
+    background-position: 0 -30vw;
+}
+footer a:nth-of-type(4) p:nth-child(1):hover{
+    background-position: 0 -24vw;
+}

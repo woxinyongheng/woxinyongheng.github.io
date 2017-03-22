@@ -17,3 +17,10 @@ $(document).ready(function(){
 *斜体*
 **粗体**
 ***粗斜体***
+
+<!--链接-->
+[baidu](https://www.baidu.com)
+<https://www.baidu.com>
+
+[1]: http://google.com/
+[yahoo]:http://www.yahoo.com
